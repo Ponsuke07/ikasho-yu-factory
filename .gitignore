@@ -35,6 +35,20 @@ eagle.epf
 *.drd
 *.drd.*
 
+# CAM files elecrow
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+
+*.TXT
+*.zip
+
 *.info
 
 *.eps
