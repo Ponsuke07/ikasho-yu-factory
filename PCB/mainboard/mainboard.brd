@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -268,9 +269,9 @@
 <vertex x="92.71" y="44.1325"/>
 <vertex x="92.3925" y="44.45"/>
 </polygon>
-<text x="7.3025" y="2.2225" size="2.54" layer="21" ratio="10">Ika Shouyu Poppoyaki Factory</text>
-<text x="92.5875" y="36.655" size="1.778" layer="25">28</text>
-<text x="93.705" y="5.54" size="1.778" layer="25">1</text>
+<text x="7.3025" y="2.2225" size="2.54" layer="21" ratio="15">Ika Shouyu Poppoyaki Factory</text>
+<text x="92.5875" y="5.8575" size="1.778" layer="25">28</text>
+<text x="93.705" y="36.9725" size="1.778" layer="25">1</text>
 <text x="3.0775" y="7.815" size="2.1844" layer="25" rot="R90">1</text>
 <text x="2.7125" y="35.6325" size="2.1844" layer="25" rot="R90">40</text>
 <wire x1="7.9375" y1="36.83" x2="10.16" y2="36.83" width="0.254" layer="21"/>
@@ -322,39 +323,45 @@
 <rectangle x1="3.01751875" y1="3.96875" x2="4.28751875" y2="4.28625" layer="200"/>
 <rectangle x1="-0.16001875" y1="4.28625" x2="1.74751875" y2="4.60375" layer="200"/>
 <rectangle x1="2.38251875" y1="4.28625" x2="4.28751875" y2="4.60375" layer="200"/>
-<rectangle x1="72.23251875" y1="0.635" x2="72.55001875" y2="0.9525" layer="21"/>
-<rectangle x1="73.82001875" y1="0.635" x2="74.13751875" y2="0.9525" layer="21"/>
-<rectangle x1="71.59751875" y1="0.9525" x2="71.91248125" y2="1.27" layer="21"/>
-<rectangle x1="72.55001875" y1="0.9525" x2="72.86751875" y2="1.27" layer="21"/>
-<rectangle x1="73.50251875" y1="0.9525" x2="73.82001875" y2="1.27" layer="21"/>
-<rectangle x1="74.45501875" y1="0.9525" x2="74.77251875" y2="1.27" layer="21"/>
-<rectangle x1="71.28001875" y1="1.27" x2="71.59751875" y2="1.5875" layer="21"/>
-<rectangle x1="71.91248125" y1="1.27" x2="72.23251875" y2="1.5875" layer="21"/>
-<rectangle x1="72.55001875" y1="1.27" x2="72.86751875" y2="1.5875" layer="21"/>
-<rectangle x1="73.50251875" y1="1.27" x2="73.82001875" y2="1.5875" layer="21"/>
-<rectangle x1="74.13751875" y1="1.27" x2="74.45501875" y2="1.5875" layer="21"/>
-<rectangle x1="74.77251875" y1="1.27" x2="75.08748125" y2="1.5875" layer="21"/>
-<rectangle x1="71.91248125" y1="1.5875" x2="72.23251875" y2="1.905" layer="21"/>
-<rectangle x1="72.55001875" y1="1.5875" x2="72.86751875" y2="1.905" layer="21"/>
-<rectangle x1="73.50251875" y1="1.5875" x2="73.82001875" y2="1.905" layer="21"/>
-<rectangle x1="74.13751875" y1="1.5875" x2="74.45501875" y2="1.905" layer="21"/>
-<rectangle x1="72.23251875" y1="1.905" x2="74.13751875" y2="2.2225" layer="21"/>
-<rectangle x1="71.59751875" y1="2.2225" x2="72.23251875" y2="2.54" layer="21"/>
-<rectangle x1="72.55001875" y1="2.2225" x2="73.82001875" y2="2.54" layer="21"/>
-<rectangle x1="74.13751875" y1="2.2225" x2="74.77251875" y2="2.54" layer="21"/>
-<rectangle x1="71.91248125" y1="2.54" x2="72.23251875" y2="2.8575" layer="21"/>
-<rectangle x1="72.55001875" y1="2.54" x2="73.82001875" y2="2.8575" layer="21"/>
-<rectangle x1="74.13751875" y1="2.54" x2="74.45501875" y2="2.8575" layer="21"/>
-<rectangle x1="71.91248125" y1="2.8575" x2="72.23251875" y2="3.175" layer="21"/>
-<rectangle x1="72.55001875" y1="2.8575" x2="73.82001875" y2="3.175" layer="21"/>
-<rectangle x1="74.13751875" y1="2.8575" x2="74.45501875" y2="3.175" layer="21"/>
-<rectangle x1="71.91248125" y1="3.175" x2="74.45501875" y2="3.4925" layer="21"/>
-<rectangle x1="71.28001875" y1="3.4925" x2="75.08748125" y2="3.81" layer="21"/>
-<rectangle x1="71.59751875" y1="3.81" x2="74.77251875" y2="4.1275" layer="21"/>
-<rectangle x1="71.59751875" y1="4.1275" x2="74.77251875" y2="4.445" layer="21"/>
-<rectangle x1="71.91248125" y1="4.445" x2="74.45501875" y2="4.7625" layer="21"/>
-<rectangle x1="72.23251875" y1="4.7625" x2="74.13751875" y2="5.08" layer="21"/>
-<rectangle x1="72.86751875" y1="5.08" x2="73.50251875" y2="5.3975" layer="21"/>
+<rectangle x1="71.59751875" y1="1.27" x2="71.91501875" y2="1.5875" layer="21"/>
+<rectangle x1="73.18501875" y1="1.27" x2="73.50251875" y2="1.5875" layer="21"/>
+<rectangle x1="70.96251875" y1="1.5875" x2="71.27748125" y2="1.905" layer="21"/>
+<rectangle x1="71.91501875" y1="1.5875" x2="72.23251875" y2="1.905" layer="21"/>
+<rectangle x1="72.86751875" y1="1.5875" x2="73.18501875" y2="1.905" layer="21"/>
+<rectangle x1="73.82001875" y1="1.5875" x2="74.13751875" y2="1.905" layer="21"/>
+<rectangle x1="70.64501875" y1="1.905" x2="70.96251875" y2="2.2225" layer="21"/>
+<rectangle x1="71.27748125" y1="1.905" x2="71.59751875" y2="2.2225" layer="21"/>
+<rectangle x1="71.91501875" y1="1.905" x2="72.23251875" y2="2.2225" layer="21"/>
+<rectangle x1="72.86751875" y1="1.905" x2="73.18501875" y2="2.2225" layer="21"/>
+<rectangle x1="73.50251875" y1="1.905" x2="73.82001875" y2="2.2225" layer="21"/>
+<rectangle x1="74.13751875" y1="1.905" x2="74.45248125" y2="2.2225" layer="21"/>
+<rectangle x1="71.27748125" y1="2.2225" x2="71.59751875" y2="2.54" layer="21"/>
+<rectangle x1="71.91501875" y1="2.2225" x2="72.23251875" y2="2.54" layer="21"/>
+<rectangle x1="72.86751875" y1="2.2225" x2="73.18501875" y2="2.54" layer="21"/>
+<rectangle x1="73.50251875" y1="2.2225" x2="73.82001875" y2="2.54" layer="21"/>
+<rectangle x1="71.59751875" y1="2.54" x2="73.50251875" y2="2.8575" layer="21"/>
+<rectangle x1="70.96251875" y1="2.8575" x2="71.59751875" y2="3.175" layer="21"/>
+<rectangle x1="71.91501875" y1="2.8575" x2="73.18501875" y2="3.175" layer="21"/>
+<rectangle x1="73.50251875" y1="2.8575" x2="74.13751875" y2="3.175" layer="21"/>
+<rectangle x1="71.27748125" y1="3.175" x2="71.59751875" y2="3.4925" layer="21"/>
+<rectangle x1="71.91501875" y1="3.175" x2="73.18501875" y2="3.4925" layer="21"/>
+<rectangle x1="73.50251875" y1="3.175" x2="73.82001875" y2="3.4925" layer="21"/>
+<rectangle x1="71.27748125" y1="3.4925" x2="71.59751875" y2="3.81" layer="21"/>
+<rectangle x1="71.91501875" y1="3.4925" x2="73.18501875" y2="3.81" layer="21"/>
+<rectangle x1="73.50251875" y1="3.4925" x2="73.82001875" y2="3.81" layer="21"/>
+<rectangle x1="71.27748125" y1="3.81" x2="73.82001875" y2="4.1275" layer="21"/>
+<rectangle x1="70.64501875" y1="4.1275" x2="74.45248125" y2="4.445" layer="21"/>
+<rectangle x1="70.96251875" y1="4.445" x2="74.13751875" y2="4.7625" layer="21"/>
+<rectangle x1="70.96251875" y1="4.7625" x2="74.13751875" y2="5.08" layer="21"/>
+<rectangle x1="71.27748125" y1="5.08" x2="73.82001875" y2="5.3975" layer="21"/>
+<rectangle x1="71.59751875" y1="5.3975" x2="73.50251875" y2="5.715" layer="21"/>
+<rectangle x1="72.23251875" y1="5.715" x2="72.86751875" y2="6.0325" layer="21"/>
+<text x="61.4525" y="5.5925" size="1.27" layer="25" rot="R90">TX</text>
+<text x="63.9925" y="5.5925" size="1.27" layer="25" rot="R90">RX</text>
+<text x="76.9575" y="4.3025" size="1.27" layer="25" rot="R90">3V3</text>
+<text x="79.2325" y="4.3225" size="1.27" layer="25" rot="R90">GND</text>
+<text x="81.7725" y="4.3225" size="1.27" layer="25" rot="R90">RST</text>
+<text x="84.3125" y="4.3225" size="1.27" layer="25" rot="R90">ISP</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -2528,7 +2535,6 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="MBED" pad="VOUT"/>
 <wire x1="5.08" y1="35.8775" x2="2.8" y2="33.6" width="0.6" layer="1"/>
-<wire x1="15.27775" y1="35.8775" x2="15.875" y2="35.8775" width="0" layer="19" extent="1-16"/>
 <wire x1="15.27775" y1="35.8775" x2="5.08" y2="35.8775" width="0.6" layer="1"/>
 <wire x1="2.8" y1="33.6" x2="2.54" y2="33.48" width="0.6" layer="1"/>
 <contactref element="S1" pad="2"/>
@@ -2927,7 +2933,7 @@ design rules under a new name.</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
